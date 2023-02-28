@@ -35,6 +35,7 @@ public class Soal6 {
 		System.out.println("i = "+ i);
 		System.out.println("u = "+ u);
 		System.out.println("e = "+ e);
-		System.out.println("o = "+ o);
+		System.out.println("o = "+ o); 
+		
 	}
 }
