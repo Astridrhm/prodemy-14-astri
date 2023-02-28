@@ -19,9 +19,9 @@ public class SoalD {
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
 				if (i == j) {
-					System.out.print((i * 2) -1);
-				} else if (i + j == n + 1){
-					System.out.print((j * 2) -1);
+					System.out.print((i * 2) - 1);
+				} else if (i + j == n + 1) {
+					System.out.print((j * 2) - 1);
 				} else {
 					System.out.print(" ");
 				}
