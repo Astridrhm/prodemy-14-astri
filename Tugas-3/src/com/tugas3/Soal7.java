@@ -45,14 +45,14 @@ public class Soal7 {
 				
 		int cur_i = namaBarang.length;
 		
-		for (int i = 0; i < namaBarang.length; i++) {
+		for (int i = 0; i < namaBarang.length ; i++) {
 			if( uang >= hargaBarang[i]) {
 				if (cur_i == namaBarang.length || hargaBarang[i] > hargaBarang[cur_i]) {
 					cur_i = i;
 				}
 			}
 		}
-		System.out.println(namaBarang[cur_i]);		
+		System.out.println(namaBarang[cur_i]); 
 	}
 
 }
